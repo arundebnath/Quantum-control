@@ -110,7 +110,16 @@ pytest
 
 The test suite checks generator construction and API validation. Integration tests requiring QuTiP-Qtrl are marked by their imports and should be run in the declared environment.
 
-## Citation
+## Acknowledgements and citations
 
-Please cite the original Qutip software. No software paper is currently associated with this project.
+It builds on the [QuTiP (Quantum Toolbox in Python)](https://qutip.org/) ecosystem for quantum-object representations and open-system dynamics, and uses QuTiP-Qtrl for gradient-based optimal control.
 
+If you use OpenQCtrl in your research, **please also cite the relevant QuTiP and QuTiP-Qtrl publications**, in addition to citing this repository.
+
+QuTiP publications and citation information:
+
+- QuTiP 5: [https://doi.org/10.1016/j.jcp.2024.113760](https://doi.org/10.1016/j.jcp.2024.113760)
+- QuTiP 4: [https://doi.org/10.1016/j.cpc.2012.02.021](https://doi.org/10.1016/j.cpc.2012.02.021)
+- QuTiP-Qtrl: Please consult the [QuTiP-Qtrl documentation](https://qutip-qtrl.readthedocs.io/) for the appropriate citation information.
+
+Please cite the publication corresponding to the version of QuTiP used in your work.
