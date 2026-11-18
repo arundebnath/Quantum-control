@@ -18,24 +18,24 @@ OpenQCtrl is a research-oriented starting point for modelling finite-dimensional
 
 The dynamics follow
 
-\[
+$$
 \dot{\rho}(t)=-i[H(t),\rho(t)]+\sum_j\mathcal{D}[C_j]\rho(t),
 \qquad
 H(t)=H_0+\sum_k u_k(t)H_k,
-\]
+$$
 
 where
 
-\[
+$$
 \mathcal{D}[C]\rho=C\rho C^\dagger-\frac12\{C^\dagger C,\rho\}.
-\]
+$$
 
 The example uses a two-level system,
 
-\[
+$$
 H_0=\frac{\omega_q}{2}\sigma_z+\frac{\Delta}{2}\sigma_x,
 \qquad C=\sqrt{\gamma}\,\sigma_-,
-\]
+$$
 
 with two control Hamiltonians \(H_{c,1}=\sigma_z\) and \(H_{c,2}=\sigma_x\). The initial and target maps are built from the identity and Hadamard operators, respectively, using QuTiP's `sprepost`.
 
