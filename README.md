@@ -37,9 +37,9 @@ H_0=\frac{\omega_q}{2}\sigma_z+\frac{\Delta}{2}\sigma_x,
 \qquad C=\sqrt{\gamma}\,\sigma_-,
 $$
 
-with two control Hamiltonians \(H_{c,1}=\sigma_z\) and \(H_{c,2}=\sigma_x\). The initial and target maps are built from the identity and Hadamard operators, respectively, using QuTiP's `sprepost`.
+with two control Hamiltonians $H_{c,1}=\sigma_z4 and $H_{c,2}=\sigma_x$. The initial and target maps are built from the identity and Hadamard operators, respectively, using QuTiP's `sprepost`.
 
-**Unit convention:** the example uses dimensionless numerical parameters with \(\hbar=1\). Consequently, time and Hamiltonian parameters are mutually inverse units. The original notebook's `ns` and `MHz` plot labels are not physically established by its parameter definitions and are not retained as default labels.
+**Unit convention:** the example uses dimensionless numerical parameters with $\hbar=1$. Consequently, time and Hamiltonian parameters are mutually inverse units. The original notebook's `ns` and `MHz` plot labels are not physically established by its parameter definitions and are not retained as default labels.
 
 ## Install
 
