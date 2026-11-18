@@ -1,8 +1,8 @@
-# OpenQCtrl
+# Quantum-control
 
 **Open-system quantum optimal control in Python.**
 
-OpenQCtrl is a research-oriented starting point for modelling finite-dimensional open quantum systems and optimizing control pulses for quantum-state and quantum-operation objectives. The first implementation wraps the GRAPE pulse optimizer in [QuTiP-Qtrl](https://qutip-qtrl.readthedocs.io/) and uses QuTiP objects for Hamiltonians, Lindblad generators, and quantum maps.
+This codebase is a research-oriented starting point for modelling finite-dimensional open quantum systems and optimizing control pulses for quantum-state and quantum-operation objectives. The first implementation wraps the GRAPE pulse optimizer and uses QuTiP objects for Hamiltonians, Lindblad generators, and quantum maps. It is heavily inspired by one of the tutorials and will continue to be updated.
 
 > **Status:** experimental alpha. The initial example reproduces the structure of the supplied two-level Lindblad-control notebook. The package is deliberately small; its API may change before a stable release.
 
@@ -112,8 +112,5 @@ The test suite checks generator construction and API validation. Integration tes
 
 ## Citation
 
-Please cite the repository using the metadata in [`CITATION.cff`](CITATION.cff). No software paper is currently associated with this project.
+Please cite the original Qutip software. No software paper is currently associated with this project.
 
-## License
-
-MIT. See [`LICENSE`](LICENSE).
