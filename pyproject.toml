@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openqctrl"
+version = "0.1.0a0"
+description = "Open-system quantum optimal control using QuTiP and GRAPE"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "OpenQCtrl contributors"}]
+keywords = ["quantum control", "open quantum systems", "Lindblad", "GRAPE", "QuTiP"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Physics"
+]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "qutip>=5.0",
+  "qutip-qtrl>=0.1"
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+dev = ["pytest>=7.4", "matplotlib>=3.7", "jupyter>=1.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
